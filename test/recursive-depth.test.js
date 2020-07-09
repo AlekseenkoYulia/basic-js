@@ -10,6 +10,7 @@ const instance = new DepthCalculator();
 const calculateDepth = instance.calculateDepth.bind(instance);
 
 const createFlatArr = (length) => Array.from({length}, () => Math.floor(Math.random() * length));
+console.log(instance);
 
 describe('Recursive depth', () => {
     //Presence requirement
